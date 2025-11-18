@@ -3,8 +3,7 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        jcenter() // Warning: this repository is going to shut down soon
+        // Add mirror below
+        maven("https://maven.aliyun.com/repository/public")
     }
 }
-rootProject.name = "LÖVE for Android"
-include ':app'
